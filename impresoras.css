@@ -48,12 +48,12 @@
     -webkit-line-clamp: 3; /* Limita a 3 líneas en navegadores webkit (Safari y Chrome) */
     -webkit-box-orient: vertical;
     white-space: normal;
-  }  
+  }
 
 p.title2 {
     padding: 1% 5%;
     font-size: 1rem;
-    margin-top: 0; 
+    margin-top: 0;
     max-height: 3 * 1.2em; /* Establece el máximo de 3 líneas (ajusta el valor según el tamaño de fuente) */
     overflow: hidden;
     text-overflow: ellipsis;
@@ -61,7 +61,7 @@ p.title2 {
     -webkit-line-clamp: 3; /* Limita a 3 líneas en navegadores webkit (Safari y Chrome) */
     -webkit-box-orient: vertical;
     white-space: normal;
-  }  
+  }
 
   h3.title3 {
        font-size: 1.2rem;
