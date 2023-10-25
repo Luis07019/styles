@@ -1,5 +1,4 @@
-
-    /* Estilos generales */
+/* Estilos generales */
   
   .row {
         display: grid;
@@ -33,11 +32,11 @@
       }
    
   img {
-        display: block; /* Eliminar espacio en blanco debajo de las imágenes */
-        margin: 0 auto; /* Centrar las imágenes horizontalmente */
-    }
+      display: block; /* Eliminar espacio en blanco debajo de las imágenes */
+      margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  }
 
-  h3.title2 {
+h3.title2 {
     padding: 1% 5%;
     font-size: 1rem;
     margin-top: 0; 
@@ -68,7 +67,7 @@ p.title2 {
        margin: 1.5rem;
        text-decoration: none;
      }
-  
+
     /* Estilos para tamaños pequeños de pantalla */
     @media screen and (max-width: 600px) {
         .row {
@@ -81,46 +80,43 @@ p.title2 {
             grid-template-columns: repeat(2, 3fr);
         }
     }
-  
-  .AAWP {
 
+  .AAWP {
     display: grid;
     padding: 0px 5% 0.5rem
   }
-  
+
   .CAP {
     padding: 0% 5%;
     font-size: 12px;
-  
   }
-  
+
   .Cimg {
     margin: 0 auto;
     width: 276px;
     height: 300px;
     display: flex;
     align-items: center;
-    
   }
+
   .Cimg1 {
     max-height: 100%;
   }
-  
+
   .MCAP,.MCimg {
     font-size: 12px;
-    border-top: 1px solid #eee
+    border-top: 1px solid #eee;
   }
- 
+
   .txopi {
     text-align: center;
     font-size: 14px;
     padding: inherit;
   }
-  
+
   .btn1 {
     box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
     padding: 0.75rem 1.25rem;
     font-size: 1rem;
     background-color: #eee;
   }
-    
